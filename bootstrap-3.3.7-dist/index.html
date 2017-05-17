@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> Bootstrap </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <script   src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    * { outline: #DDD 1px solid }
+
+    .email {
+      color: orange;
+      font-size: 2em;
+      text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1> Grids </h1>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4"> 4 </div>
+      <div class="col-md-4"> 4 </div>
+      <div class="col-md-4"> 4 </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-8"> 8/12 </div>
+      <div class="col-xs-6 col-sm-2"> 2/6 </div>
+      <div class="col-xs-6 col-sm-2"> 2/6 </div>
+    </div>
+
+  </div>
+
+  <h1> Glyphicons </h1>
+
+  <span class="glyphicon glyphicon-envelope email"></span>
+  email@email.com
+
+  <h1> Collapsibles </h1>
+
+  How many days are there in a year?
+
+  <button data-toggle="collapse" data-target="#answer"> answer </button>
+
+  <div class="collapse" id="answer">
+  365.2422
+  </div>
+
+</body>
+
+
+</html>
